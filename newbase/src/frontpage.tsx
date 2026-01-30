@@ -5,10 +5,13 @@
 
 function NameHeader(){
     return (
+        <>
         <div>
         <h1>Mitchell Mazzoni</h1>
         <h2>Software Engineer</h2>
+            <button onClick={() => {console.log("button pressed!")} }> this button does nothing! </button>
         </div>
+        </>
     )
 }
 

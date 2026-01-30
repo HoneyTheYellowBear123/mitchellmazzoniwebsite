@@ -1,3 +1,4 @@
+import './MyApp.css'
 
 import NameHeader from "./frontpage";
 
