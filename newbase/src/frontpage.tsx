@@ -1,9 +1,9 @@
 //header
 //picture of me
 //educational and technical summary and what I'm looking for
-import React, { Component } from 'react';
+//import React, { Component } from 'react';
 
-function nameHeader(){
+function NameHeader(){
     return (
         <div>
         <h1>Mitchell Mazzoni</h1>
@@ -12,4 +12,4 @@ function nameHeader(){
     )
 }
 
-export default nameHeader;
+export default NameHeader;
