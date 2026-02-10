@@ -14,7 +14,6 @@ function NameHeader(){
             <div>
                 <NavBar />
                 <h1>Mitchell Mazzoni</h1>
-                <h2>Software Engineer</h2>
             </div>
         </>
     )

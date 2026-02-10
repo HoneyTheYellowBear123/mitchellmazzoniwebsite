@@ -5,6 +5,7 @@ import {HashRouter as Router, Routes, Route, Link} from 'react-router-dom'
 
 import HomePage from "./pages/HomePage";
 import TheFunZoneMain from "./pages/TheFunZone/TheFunZoneMain";
+import TheProZoneMain from "./pages/TheProZone/TheProZoneMain";
 
 
 
@@ -16,6 +17,7 @@ function MyApp() {
 
                 <Route path="/" element={<HomePage />} />
                 <Route path="/theFUNzone" element={<TheFunZoneMain />} />
+                <Route path="/portfolio" element={<TheProZoneMain />} />
 
             </Routes>
         </Router>

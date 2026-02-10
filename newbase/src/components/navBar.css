@@ -1,0 +1,29 @@
+.navBar {
+    display: flex;
+    gap: 20px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+.funButton {
+
+}
+
+.funButton:hover {
+    color: #000000;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red);
+    background-size: 400% 100%; /* Make the background wider than the button */
+
+    /* Apply the animation */
+    animation: rainbow-animation 4s linear infinite;
+}
+
+@keyframes rainbow-animation {
+    0% {
+        background-position: 0 0; /* Start position of the background */
+    }
+    100% {
+        background-position: 400% 0; /* End position of the background, moves the entire gradient across */
+    }
+}
