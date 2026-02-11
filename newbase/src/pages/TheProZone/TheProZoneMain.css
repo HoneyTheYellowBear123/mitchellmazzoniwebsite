@@ -1,0 +1,21 @@
+root {
+    display: flex;
+    flex-direction: column;
+}
+
+div.flex-container > div {
+    margin: 10px;
+}
+
+
+ul {
+    display: grid;
+
+    margin-left: 0;
+    padding-left: 0;
+    list-style-position: inside
+}
+
+li {
+    text-align: left; /* Ensures the text itself is left aligned, if parent has center/right alignment */
+}
