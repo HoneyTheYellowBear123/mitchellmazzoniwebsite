@@ -8,7 +8,7 @@ function NavBar() {
                 <button>Home</button>
             </Link>
             <Link to="/portfolio">
-            <button>Professional Portfolio</button>
+            <button>Professional Summary</button>
             </Link>
             <Link to="/theFUNzone">
                 <button className="funButton">The Fun Zone</button>
