@@ -24,7 +24,18 @@ function Education(){
                 <h2>Education</h2>
                 <ul className="sectioncontent">
                     <li>Georgia Institute of Technology - BS in Aerospace Engineering - 2019</li>
-                    <li>Georgia Institute of Technology - MS in Computer Science with Machine Learning Specialization - 2025</li>
+                    <li>Georgia Institute of Technology - MS in Computer Science with Machine Learning Specialization - 2025
+                        <ul className="SubList"><h4>Relevant Coursework</h4>
+                            <li>Deep Learning</li>
+                            <li>Network Science</li>
+                            <li>Computer Vision</li>
+                            <li>Human Computer Interaction</li>
+                            <li>Machine Learning</li>
+                            <li>Graduate Algorithms</li>
+                            <li>Artificial Intelligence</li>
+                            <li>Database Systems, Concepts, and Design</li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </>

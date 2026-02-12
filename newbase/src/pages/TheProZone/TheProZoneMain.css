@@ -49,10 +49,39 @@ h2 {
 
 ul {
     display: grid;
-
+    margin-top: 0;
     margin-left: 0;
     padding-left: 0;
     list-style-position: inside
+}
+
+.SubList {
+    margin-left: 40px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    list-style-type: circle;
+}
+
+.SubList li {
+    display: inline-block;
+    width: 33%;
+}
+
+.SubList li::before {
+    content: '\25CB'; /* unicode! */
+    font-size: 0.5em;
+    vertical-align: 16%;
+    padding-right: 5px;
+}
+
+
+
+.SubList h4 {
+    color: rgba(120, 255, 120, 0.87);
+    margin-top: 0;
+    margin-bottom: 0;
+    display: block;
 }
 
 li {
