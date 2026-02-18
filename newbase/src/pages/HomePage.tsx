@@ -13,9 +13,11 @@ function NameHeader(){
         <>
             <div>
                 <NavBar />
-                <h1>Mitchell Mazzoni</h1>
-                <h2>Welcome to the website!</h2>
-                <h2>try clicking one of those nifty buttons up top to go to a more interesting page.</h2>
+                <div className="HomePage">
+                    <h1>Mitchell Mazzoni</h1>
+                    <h2>Welcome to the website!</h2>
+                    <h2>try clicking one of those nifty buttons up top to go to a more interesting page.</h2>
+                </div>
             </div>
         </>
     )

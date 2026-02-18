@@ -42,12 +42,25 @@ function Education(){
     )
 }
 
+
+
+
+function WorkExperience(){
+    return (
+        <div className="WorkExperience">
+            <h2>Work Experience</h2>
+        </div>
+    )
+}
+
+
 function TheProZoneMain(){
     return (
         <div>
             <NavBar />
             <NameHeader />
             <Education />
+            <WorkExperience />
         </div>
     )
 }

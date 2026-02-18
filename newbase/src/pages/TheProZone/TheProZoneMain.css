@@ -21,8 +21,8 @@ body {
     /* Aligns items along the cross axis (vertical by default) to the start (top) */
     align-items: flex-start;
     flex-direction: column;
-    position: fixed;
-    top: 60px;
+    position: relative;
+    top: -60px;
     left: 30px;
     text-align: left;
 }
@@ -32,8 +32,19 @@ body {
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    position: fixed;
-    top: 400px;
+    position: relative;
+    top: -30px;
+    left: 30px;
+}
+
+
+.WorkExperience {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    top: -20px;
     left: 30px;
 }
 
