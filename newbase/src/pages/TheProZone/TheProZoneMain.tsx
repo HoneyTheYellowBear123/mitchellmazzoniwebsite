@@ -49,6 +49,23 @@ function WorkExperience(){
     return (
         <div className="WorkExperience">
             <h2>Work Experience</h2>
+            <ul className="sectioncontent">
+                <li className="bigBullet">DevSecOps CI/CD Engineer ------ Lockheed Martin
+                    <ul className="vertSubList">
+                        <li>Automated testing and configuration of microservices using Ansible and gitlab CI/CD pipelines.</li>
+                        <li>Automated hardware configuration and supported remote access.</li>
+                        <li>Managed Kubernetes deployments to single and multi-node clusters and AWS EC2 instances.</li>
+                    </ul>
+                </li>
+                <li className="bigBullet">Simulation Solutions / Computer Vision Engineer ----- Ball Aerospace
+                    <ul className="vertSubList">
+                        <li>Utilized open source libraries and STK integration to supplement simulation architecture.</li>
+                        <li>Developed data fusion capability with a Kalman filter, supporting variable sensor and data types.</li>
+                        <li>Simulated environments in Unity game engine and integrated into computer vision training.</li>
+                    </ul>
+                </li>
+            </ul>
+
         </div>
     )
 }

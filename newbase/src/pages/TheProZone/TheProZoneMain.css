@@ -22,7 +22,7 @@ body {
     align-items: flex-start;
     flex-direction: column;
     position: relative;
-    top: -60px;
+    top: -10px;
     left: 30px;
     text-align: left;
 }
@@ -33,7 +33,7 @@ body {
     align-items: flex-start;
     flex-direction: column;
     position: relative;
-    top: -30px;
+    top: 30px;
     left: 30px;
 }
 
@@ -44,7 +44,7 @@ body {
     align-items: flex-start;
     flex-direction: column;
     position: relative;
-    top: -20px;
+    top: 50px;
     left: 30px;
 }
 
@@ -84,6 +84,23 @@ ul {
     font-size: 0.5em;
     vertical-align: 16%;
     padding-right: 5px;
+}
+
+.bigBullet {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.vertSubList li {
+    display: inline-block;
+    padding-left: 35px;
+}
+
+.vertSubList li::before {
+    content: '\25CB'; /* unicode! */
+    font-size: 0.5em;
+    vertical-align: 16%;
+    padding-right: 15px;
 }
 
 
