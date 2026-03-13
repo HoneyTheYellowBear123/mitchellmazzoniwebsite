@@ -2,7 +2,7 @@
   "name": "newbase",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://HoneyTheYellowBear123.github.io/mitchellmazzoniwebsite",
+  "homepage": "https://honeytheyellowbear123.github.io/mitchellmazzoniwebsite/",
   "type": "module",
   "scripts": {
     "dev": "vite",
