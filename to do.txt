@@ -11,6 +11,8 @@
 
 #####        FUN       ####
 picture of bear somewhere
+
+
 https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg
 
 
